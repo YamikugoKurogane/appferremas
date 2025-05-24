@@ -1,0 +1,22 @@
+{% extends 'TCGPAGE/base.html'%}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+        <section >
+        
+            <h1 id="s1" >Crear Usuario</h1>
+
+        <form  action="" method="post" id="registro">
+            {% csrf_token %}
+            {{ form | crispy}}
+            <button type="submit"  class="btn btn-primary">Registrarse</button>
+            
+        </form>
+
+
+        </section>
+        
+    
+
+{% endblock %}

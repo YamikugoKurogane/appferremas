@@ -1,0 +1,91 @@
+{% extends 'TCGPAGE/base.html' %} 
+{% load static%}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+
+    <h1 id="TP"><img  src="https://i.postimg.cc/fT1g1V38/logo-pagina-removebg-preview.png" alt="logo tcg's wiki"></h1>
+    <p id="s1">El TCG (trading card game) o JCI (Juego de Cartas Intercambiables) es un tipo de entretenimiento en base a cartas que se puedes como dice el nombre intercambiar y coleccionar para tener partidas con tus amigo o en torneos que se realizan por todo el mundo no solo en algunos paises.
+      <br> <br> A Continuacion unas imagenes de cartas que son de distintos TCG que son los que veremos en esta Wiki.
+    </p>
+    
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="logo1" src="https://9ded3bdc20.clvaw-cdnwnd.com/1805503edceacde8501a39f3d8c718bc/200000058-01cc201cc4/logo_myl_1200x1200.png?ph=9ded3bdc20" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img id="logo1" src="https://victoryroadtcg.com/cdn/shop/collections/yu_gi_oh__tcg_logo_by_homoco9_ddyvtrd-fullview.png?v=1696453552" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img id="logo1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pokémon_Trading_Card_Game_logo.svg/1280px-Pokémon_Trading_Card_Game_logo.svg.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img id="logo1" src="https://logos-world.net/wp-content/uploads/2023/05/Magic-The-Gathering-Logo.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+    
+  <ol id="listaCartas">
+        <li><a href="{% url 'myl' %}" target="_blank">Mitos Y Leyendas</a></li>
+        <li><a href="{% url 'yugi' %}" target="_blank">Yu Gi Oh</a></li>
+        <li><a href="{% url 'poke' %}" target="_blank">Pokemon TCG</a></li>
+        <li><a href="{% url 'magic' %}" target="_blank">Magic The Gathering</a></li>
+      </ol>    
+      
+    <p id="t1">Ordenados en orden de facilidad de aprender a jugar (Segun mi criterio.) <br>Estos 4 TCG's que mencione son algunos de los mas conocidos y vendidos a lo largo del mundo y sobre los que se habla principalmente en esta wiki pero mas adelante se añadiran algunos otros TCG's menos conocidos.</p>
+
+    
+    
+    <h3 id="TP">Encuesta</h3>
+    
+  
+    <fieldset id="field">
+      <form action="procesar.php" name="comentarios">
+        <legend id="o1">Comentarios</legend>
+        <div id="e2">
+          <p id="g1">Nombre :</p>
+          <input type="text" id="name" name="user_name" />
+          
+        
+          <p id="g1">Correo Electronico :</p>
+          <input type="email" id="mail" name="user_mail" />
+        
+          <p id="g1">Que Opinas de la pagina :</p>
+          <textarea cols="50" rows="5" id="msg" name="user_message"></textarea>
+          
+          <p id="g1">Que Añadirias :</p>
+          <textarea cols="50" rows="5" id="msg" name="user_message"></textarea>
+          
+          <p id="g1">Volverias a usarla :</p>
+          <select name="usarlaotravez" id="f1">
+            <option value="1">Si</option>
+            <option value="2">No</option>
+            <option value="3">Tal vez</option>
+  
+          </select>
+          
+        </div>
+        <button id="e1" type="button" class="btn btn-primary" onclick="validarFormularioIndex()">Enviar</button>
+        <p id="error-form" class="texto-error">&nbsp;</p>
+      </form>
+      
+    </fieldset>
+    
+      
+
+
+    {% endblock %}

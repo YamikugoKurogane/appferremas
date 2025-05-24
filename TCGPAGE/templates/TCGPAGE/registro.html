@@ -1,0 +1,16 @@
+{% extends 'TCGPAGE/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<section class="mt-24 px-[25%]">
+  <h1 class="text-xl font-bold mb-4 text-center">Crear Usuario</h1>
+
+  <form method="post" id="registro">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <div class="text-center mt-4">
+      <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-900">Registrarse</button>
+    </div>
+  </form>
+</section>
+{% endblock %}

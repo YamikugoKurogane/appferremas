@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: "PT Serif";
+}
+body {
+    background-image: url('https://files.catbox.moe/jihlk6.jpg');
+    background-attachment: fixed;
+    color:black;
+    background-size:cover;
+    
+}
+
+.contenedor {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 30px;
+    width: 40%;
+}
+
+#login{
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 25%;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+h1 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #585858;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+.correct {
+    border: 1px #01833196 solid !important;
+}
+
+.incorrect {
+    border: 1px #83010196 solid !important;
+}
+
+.texto-error {
+    font-size: .9rem;
+    color: #83010196;
+    text-align: right;
+}

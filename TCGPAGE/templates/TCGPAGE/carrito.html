@@ -1,0 +1,43 @@
+{% extends 'TCGPAGE/base.html' %}
+
+{% block content %}
+<h1 id="TP">Carrito</h1>
+
+<table id="tabla1">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Imagen</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+      <th>SubTotal</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="tabla-carrito-body">
+    <!-- Se cargará con JS -->
+  </tbody>
+</table>
+
+<div id="total-container" class="my-3">
+  <h3>Total: $<span id="total-carrito">0</span></h3>
+
+
+  <div class="my-2">
+  
+</div>
+<div class="my-2">
+  <h4>Total en USD: $<span id="total-usd">0</span></h4>
+</div>
+
+</div>
+
+<form id="form-pago" action="http://127.0.0.1:5000/iniciar_pago" method="POST">
+  <input type="hidden" name="monto" id="monto-total">
+  <button type="submit" class="btn btn-success">Pagar con WebPay</button>
+</form>
+
+<button id="vaciar-carrito" class="btn btn-danger mt-3">Vaciar Carrito</button>
+
+{% endblock %}

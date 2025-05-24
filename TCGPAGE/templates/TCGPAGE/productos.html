@@ -1,0 +1,21 @@
+
+{% extends 'TCGPAGE/base.html' %} 
+{% load static%}
+{% static 'productos_lista.js' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="container">
+    <h1>Productos disponibles</h1>
+    <div id="productos-container"></div>
+  </div>
+
+  <link rel="stylesheet" href="{% static 'productos.css' %}">
+
+
+{% endblock %}
+

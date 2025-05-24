@@ -1,0 +1,43 @@
+
+{% extends 'TCGPAGE/base.html' %} 
+{% load static%}
+
+{% block head %}
+{% static 'funciones.js' %}
+{% endblock %}
+
+{% block content %}
+
+
+<h1 id="TP">Productos</h1>
+
+<div class="row">
+
+    {% for item in prodGlob %}
+    <div class="col-sm-4 mb-4 mb-sm-0">
+
+      <div id="persoLOL"  class="card" style="width: 18rem;">
+        <img src="{{ item.imagen }}" class="card-img-top" alt="{{ item.nombre }}">
+        <div class="card-body">
+          <h5 id="s1" class="card-title">{{ item.nombre }}</h5>
+          <p id="s1" class="card-text">Precio : {{ item.precio }}</p>
+          <a href="{% url 'addToCar' item.id %}" class="btn btn-primary">Añadir al Carro</a>
+        </div>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+
+
+
+
+
+
+
+
+
+<script src="funciones2.js"></script>
+<div class="container-fluid"></div>
+{% endblock %}
+

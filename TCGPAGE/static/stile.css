@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: "PT Serif";
+}
+
+body{
+    background-image: url('https://files.catbox.moe/qk1w0i.png') ;
+    background-attachment: fixed;
+    color:black;
+    background-size:cover;
+    
+    
+}
+
+#l1{
+    margin: 250px;
+}
+
+#Titulo{
+    font-weight: bolder;
+    color: white;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav > h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#tabla1{
+    color: white;
+    font-size: 1.2rem;
+    width: 90%;    
+
+}
+
+
+#a1{
+
+    font-size: 1.4rem;
+    color: white;
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#a2{
+    
+
+    font-size: 1.4rem;
+    color: white;
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#t1{
+    
+
+    font-size: 1.4rem;
+    color: white;
+    margin: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+#t2{
+
+    font-size: 1.4rem;
+    color: white;
+    margin: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+#listaCartas{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+
+}
+
+#carouselExampleAutoplaying{
+    width: 50%;
+    margin-bottom: 10%;
+    margin-left: 22%;
+}
+
+#TP{
+    font-weight: bold;
+    margin-left: 18%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);}
+
+#s1{
+    margin-top: 2%;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+#s2{
+
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+}
+#s3{
+    background-color: #c7f8fc;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+}
+#s33{
+    background-color: #c7f8fc;
+    font-size: 1.4rem;
+    
+    margin: 20%;
+}
+#s4{
+    margin-top: 5%;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    
+}
+#v1{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    width: 55%;
+}
+#t11{
+    width: 200px;
+
+}
+#x1{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin: 250px;
+}
+#x2{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin: 250px;
+}
+
+#carrocompras{
+    
+    height: 300%;
+    width: 300%;
+    
+}
+
+#cardMYL1{
+    margin-top: 40px;
+    margin: 250px;
+    background-color : #c7f8fc;
+}
+#cardMYL2{
+    margin-top: 5%;
+    margin-left: 75%;
+    background-color: #c7f8fc;
+   
+}
+
+#margin{
+    color: #c7f8fc;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#grupcardcolor{
+    background-color: #c7f8fc;
+    color: #c7f8fc;
+}
+
+#img1{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px ;
+}
+#B1{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+#c1{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+
+}
+#e1{
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: 1.4rem;
+    
+    
+}
+#e2{
+    margin-left: 20%;
+    font-size: 1.4rem;
+}
+#logo1{
+    width: 60%;
+    color: #000000;
+}
+#pad{
+    margin-bottom: 40%;
+}
+#l1{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+#g1{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2%;
+}
+#z1{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+
+}
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+#cartareparar{
+    margin-left: 70px;
+    height: 161px;
+    width: 160px;
+
+}
+#field{
+    margin-right: 200px;
+    margin-left: 50px;
+}
+#o1{
+    color: rgb(0, 0, 0);
+
+}
+#f1{
+    color: black;
+}
+#msg{
+    display: flex;
+    justify-content: center;
+
+}
+#password{
+    margin-left: 120px;
+
+}
+#mail{
+    margin-left: 50px;
+}
+
+table{
+    width: 90%;
+}
+
+thead{
+    color: #000000;
+    text-align: center;
+}
+
+.correct{
+    border:3px #239700 solid !important;
+    
+}
+.incorrect{
+    border: 3px red solid !important;
+}
+
+.texto-error{
+    font-size: .9rem;
+    color: red;
+    text-align: right;
+}
+#link-barra{
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    
+    
+}
+
+#persoLOL{
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 10%;
+    background-color : #c7f8fc;
+}
+
+#registro, #login{
+    color: rgb(0, 0, 0);
+    width: 40%;
+    display: flex;
+    row-gap: 5px;
+     flex-direction: column;
+    margin: 20%;
+}
+
+#joke{
+    font-size: 1.4rem;
+    color: #000000;
+    margin: 10%;
+
+}
+
+.wrapper{
+    width: 40%;
+    background-color: #c7f8fc;
+    margin-top: 8%;
+    margin-left: 30%;
+    color: ffffff;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 5%;
+    color: #000000;
+    margin: 10% 0;
+}
+
+#btn{
+    margin-left: 10%;
+
+
+    margin-bottom: 10%;
+}
+
+#productosMYL{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 10%;
+    margin: 0px 10%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+}
+#cartasYugi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 10%;
+    margin: 0px 10%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+}
+#productosPOKE{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 10%;
+    margin: 0px 10%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+}
+#productosMTG{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 10%;
+    margin: 0px 10%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    background-color: #c7f8fc;
+    width: 20%;
+    height: 50vh;
+    outline: 1px #cdcdcd auto;
+    border-radius: 30px;
+    box-sizing: content-box;
+    padding: 10px;
+}
+
+.imagen{
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nombre{
+    font-size: 1.1rem;
+    color:#000000;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.precio{
+    font-size: 1.1rem;
+    color: #ffb732;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #c7f8fc;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #c7f8fc;
+  }
+  tr:nth-child(even) {
+    background-color: #c7f8fc;
+  }
+  tr:hover {
+    background-color: #c7f8fc;
+  }
+
+  /* Fondo general con imagen */
+body {
+  background: url('https://files.catbox.moe/qk1w0i.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NavBar sin cambios */
+nav {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 10px 20px;
+}
+
+/* Contenedor principal centrado con márgenes laterales */
+.container {
+  background: rgba(64, 141, 122, 0.85); /* fondo semitransparente para dejar ver la imagen */
+  max-width: 50%; /* 50% ancho para que haya 25% margen a cada lado */
+  margin: 30px 25%;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+
+/* Títulos */
+h1, h2 {
+  color: #1a202c;
+  margin-bottom: 24px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Formulario con espacio entre filas */
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 28px 20px; /* más espacio vertical y horizontal */
+  margin-bottom: 40px;
+}
+
+label {
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.8px solid #cbd5e0;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background: rgba(255,255,255,0.9); /* fondo blanco semi para que se lea bien */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 6px rgba(49, 130, 206, 0.5);
+}
+
+/* Botón */
+button[type="submit"] {
+  grid-column: 1 / -1;
+  padding: 14px 0;
+  background-color: #3182ce;
+  color: white;
+  font-weight: 700;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2b6cb0;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+}
+
+thead {
+  background-color: #3f7686;
+}
+
+th, td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #3f7686;
+  text-align: left;
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #3f7686;
+}
+
+/* Botones de acción */
+.btn-edit, .btn-delete {
+  padding: 7px 14px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  border: none;
+  color: white;
+}
+
+.btn-edit {
+  background-color: #38a169;
+  margin-right: 8px;
+}
+
+.btn-edit:hover {
+  background-color: #2f855a;
+}
+
+.btn-delete {
+  background-color: #e53e3e;
+}
+
+.btn-delete:hover {
+  background-color: #9b2c2c;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .container {
+    max-width: 90%;
+    margin: 20px 5%;
+  }
+
+  form {
+    grid-template-columns: 1fr;
+  }
+}
